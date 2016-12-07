@@ -1,0 +1,56 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  margin-bottom: 100px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+}
+
+.code-result {
+  font-size: 18px;
+  padding: 5px;
+  font-weight: bold;
+  overflow: auto;
+  white-space: pre-wrap;
+  .error {
+    color: #CD5C5C;
+    &.transpile {
+      color: #31b0d5;
+    }
+  }
+}
+
+.code-sample-container {
+  background-color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+
+  &.full-screen {
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .CodeMirror {
+      height: 100%;
+      max-height: inherit;
+    }
+  }
+}
+
+.CodeMirror {
+  font-size: 18px;
+  border: 1px solid #eee;
+  height: auto;
+}
+
+.container-fluid {
+  max-width: 1800px;
+}

@@ -1,0 +1,8 @@
+Tail Calls
+- Improper tail recursive languages
+-- exponential memory usage for recursive calls
+- Proper tail recursive languages
+-- mostly flat memory usage for recursive calls
+- ES6 optimizes proper tail calls
+-- last instruction is the method call to itself
+-- pass all parameters to recursive method instead of using references from current scope.

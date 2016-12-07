@@ -1,0 +1,1 @@
+module.exports = ['Classes.ts', 'Abstract.ts'];

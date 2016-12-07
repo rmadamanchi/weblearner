@@ -1,0 +1,1 @@
+module.exports = ['Interfaces.ts', 'FunctionInterfaces.ts'];

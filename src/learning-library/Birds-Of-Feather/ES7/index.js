@@ -1,0 +1,1 @@
+module.exports = ['ES7.js'];
