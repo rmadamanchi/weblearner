@@ -1,7 +1,6 @@
 const webpack = require('webpack');
 const validate = require('webpack-validator');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 const path = require('path');
 
 
@@ -53,10 +52,7 @@ module.exports = validate({
     new webpack.HotModuleReplacementPlugin(),
     new webpack.ProvidePlugin({
       _: "lodash"
-    }),
-    new CopyWebpackPlugin([
-      {from: 'gaia'}
-    ])
+    })
 
   ],
   //node: {fs: 'empty'},

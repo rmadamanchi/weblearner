@@ -14,7 +14,7 @@ function run() {
   var x;
 }
 
-test();
+run();
 
 // fragment:es5 //
 function run() {
@@ -22,4 +22,4 @@ function run() {
   console.log(x);
 }
 
-test();
+run();
