@@ -4,7 +4,7 @@ export default class Splash extends React.Component {
 
   render() {
     return <div className="jumbotron">
-      <h1 className="display-3">go/WebLearner</h1>
+      <h1 className="display-3">WebLearner</h1>
 
       <hr className="m-y-2"/>
       <p>Select a library</p>
