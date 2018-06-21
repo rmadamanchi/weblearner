@@ -12,7 +12,7 @@ export default class Splash extends React.Component {
       <p className="lead">
         {
           this.props.languages.map((language) => {
-            return <a className="btn btn-primary btn-lg" href={'/#' + language} role="button">{language}</a>;
+            return <a className="btn btn-primary btn-lg" href={'#' + language} role="button">{language}</a>;
           })
         }
       </p>
