@@ -10,7 +10,7 @@ module.exports = validate({
   },
   devtool: 'source-map',
   output: {
-    path: "build",
+    path: "docs",
     filename: '[name].bundle.js'
   },
   module: {
